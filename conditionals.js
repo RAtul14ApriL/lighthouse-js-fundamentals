@@ -1,3 +1,5 @@
+// Weather conditionals
+
 const raining = true;
  const cold = false;
 
@@ -27,4 +29,20 @@ console.log("Short sleeves are fine.");
 }
 if(cold){
 console.log("Make sure you pick out a scarf!");
+}
+ // Logical operators
+
+const isCitizen = true;
+const age = 26;
+
+if(isCitizen > 18){
+console.log("You are eligible to vote");
+}
+
+if(temperature < -40 || temperature > 40) {
+console.log("Maybe going outside isn't such a great idea..");
+}
+
+if(!raining){
+console.log("Leave your umbrella at home!");
 }
